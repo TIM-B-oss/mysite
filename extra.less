@@ -1,0 +1,628 @@
+.userBanner.owner,.userBanner.so_owner,.userBanner.director,.userBanner.ryk,.userBanner.zam_ryk,.userBanner.gts,.userBanner.zgts,.userBanner.spec_adm,.userBanner.zsa,.userBanner.ypr_serv,.userBanner.zypr,.userBanner.kyrator,.userBanner.ga,.userBanner.zga,.userBanner.gs,.userBanner.zgs,.userBanner.st_adm,.userBanner.adm,.userBanner.ml_adm,.userBanner.moder,.userBanner.ml_moder,.userBanner.helper,.userBanner.leader,.userBanner.user {
+    position: relative;
+    padding: 10px 25px;
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff !important;
+    border: none;
+    text-align: center;
+    clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
+    overflow: hidden;
+    z-index: 1;
+    background-size: 200% 200% !important;
+    animation: fastGradient 3s linear infinite !important;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    display: inline-block
+}
+
+.userBanner.owner::before,.userBanner.so_owner::before,.userBanner.director::before,.userBanner.ryk::before,.userBanner.zam_ryk::before,.userBanner.gts::before,.userBanner.zgts::before,.userBanner.spec_adm::before,.userBanner.zsa::before,.userBanner.ypr_serv::before,.userBanner.zypr::before,.userBanner.kyrator::before,.userBanner.ga::before,.userBanner.zga::before,.userBanner.gs::before,.userBanner.zgs::before,.userBanner.st_adm::before,.userBanner.adm::before,.userBanner.ml_adm::before,.userBanner.moder::before,.userBanner.ml_moder::before,.userBanner.helper::before,.userBanner.leader::before,.userBanner.user::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(255,255,255,0.05) 5px, rgba(255,255,255,0.05) 10px);
+    animation: patternMove 10s linear infinite
+}
+
+.userBanner.owner::after,.userBanner.so_owner::after,.userBanner.director::after,.userBanner.ryk::after,.userBanner.zam_ryk::after,.userBanner.gts::after,.userBanner.zgts::after,.userBanner.spec_adm::after,.userBanner.zsa::after,.userBanner.ypr_serv::after,.userBanner.zypr::after,.userBanner.kyrator::after,.userBanner.ga::after,.userBanner.zga::after,.userBanner.gs::after,.userBanner.zgs::after,.userBanner.st_adm::after,.userBanner.adm::after,.userBanner.ml_adm::after,.userBanner.moder::after,.userBanner.ml_moder::after,.userBanner.helper::after,.userBanner.leader::after,.userBanner.user::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff,0 0 10px #fff;
+    animation: dotPulse 1.5s infinite
+}
+
+@keyframes fastGradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes patternMove {
+    0% {
+        transform: translateX(-50%)
+    }
+
+    100% {
+        transform: translateX(0%)
+    }
+}
+
+@keyframes dotPulse {
+    0% {
+        opacity: 0.4;
+        transform: translateY(-50%) scale(.8)
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(-50%) scale(1.2)
+    }
+
+    100% {
+        opacity: 0.4;
+        transform: translateY(-50%) scale(.8)
+    }
+}
+
+.owner {
+    background: linear-gradient(90deg, #4b0000, #f00, #4b0000)
+}
+
+.so_owner {
+    background: linear-gradient(90deg, #600, #ff4d4d, #600)
+}
+
+/* Яркий баннер Директора */
+.director {
+    background: linear-gradient(90deg, #ff0000, #ff4d4d, #ff0000) !important;
+    background-size: 200% auto !important;
+    animation: fastGradient 3s linear infinite !important;
+}
+
+.ryk {
+    background: linear-gradient(90deg, #1a0033, #4b0082, #1a0033)
+}
+
+.zam_ryk {
+    background: linear-gradient(90deg, #310054, #8a2be2, #310054)
+}
+
+.gts {
+    background: linear-gradient(90deg, #4d2600, #ff8c00, #4d2600)
+}
+
+.zgts {
+    background: linear-gradient(90deg, #630, #ffa500, #630)
+}
+
+.spec_adm {
+    background: linear-gradient(90deg, #4d0026, #ff0080, #4d0026)
+}
+
+.zsa {
+    background: linear-gradient(90deg, #603, #ff66b2, #603)
+}
+
+.ypr_serv {
+    background: linear-gradient(90deg, #002d2d, #008b8b, #002d2d)
+}
+
+.zypr {
+    background: linear-gradient(90deg, #004d4d, #00fa9a, #004d4d)
+}
+
+.kyrator {
+    background: linear-gradient(90deg, #066, #7fffd4, #066)
+}
+
+.ga {
+    background: linear-gradient(90deg, #002b00, #008000, #002b00)
+}
+
+.zga {
+    background: linear-gradient(90deg, #040, #32cd32, #040)
+}
+
+.gs {
+    background: linear-gradient(90deg, #001a4d, #1e90ff, #001a4d)
+}
+
+.zgs {
+    background: linear-gradient(90deg, #000d26, #00f, #000d26)
+}
+
+.st_adm {
+    background: linear-gradient(90deg, #004d66, #00bfff, #004d66)
+}
+
+.adm {
+    background: linear-gradient(90deg, #006680, #87ceeb, #006680)
+}
+
+.ml_adm {
+    background: linear-gradient(90deg, #08a, #add8e6, #08a)
+}
+
+.moder {
+    background: linear-gradient(90deg, #4d3d00, #daa520, #4d3d00)
+}
+
+.ml_moder {
+    background: linear-gradient(90deg, #664f00, #ff0, #664f00)
+}
+
+.helper {
+    background: linear-gradient(90deg, #222, #aaa, #222)
+}
+
+.leader {
+    background: linear-gradient(90deg, #2b1600, #8b4513, #2b1600)
+}
+
+.user {
+    background: linear-gradient(90deg, #1a1a1a, #808080, #1a1a1a)
+}
+
+.userBanner.userBanner--staff,.userBanner.userBanner--primary {
+    position: relative;
+    padding: 10px 25px;
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
+    overflow: hidden;
+    z-index: 1;
+    color: #8b0000 !important;
+    background: linear-gradient(90deg, #ff4d4d, #fff, #ffb3b3, #fff, #ff4d4d);
+    background-size: 200% 200% !important;
+    animation: staffFastGradient 3s linear infinite !important;
+    box-shadow: 0 2px 10px rgba(255,0,0,0.3)
+}
+
+.userBanner.userBanner--staff::before,.userBanner.userBanner--primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(255,255,255,0.4) 5px, rgba(255,255,255,0.1) 10px);
+    animation: staffPattern 8s linear infinite;
+    pointer-events: none
+}
+
+.userBanner.userBanner--staff::after,.userBanner.userBanner--primary::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background: #ff0000;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #f00;
+    animation: staffDot 1s infinite
+}
+
+@keyframes staffFastGradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes staffPattern {
+    0% {
+        transform: translateX(-50%)
+    }
+
+    100% {
+        transform: translateX(0%)
+    }
+}
+
+@keyframes staffDot {
+    0%,100% {
+        opacity: 0.5;
+        transform: translateY(-50%) scale(.9)
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(-50%) scale(1.2)
+    }
+}
+
+.prefix {
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: 80%;
+    font-weight: 600;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05)
+}
+
+.prefix::before {
+    font-family: 'Font Awesome 5 Pro','Font Awesome 5 Free';
+    margin-right: 5px;
+    font-weight: 900
+}
+
+.prefix.prefix--approved {
+    background: #e6f4ea;
+    color: #1e7e34
+}
+
+.prefix.prefix--approved::before {
+    content: "\f00c"
+}
+
+.prefix.prefix--open {
+    background: #e8f0fe;
+    color: #1a73e8
+}
+
+.prefix.prefix--open::before {
+    content: "\f075"
+}
+
+.prefix.prefix--closed {
+    background: #f1f3f4;
+    color: #5f6368
+}
+
+.prefix.prefix--closed::before {
+    content: "\f023"
+}
+
+.prefix.prefix--important {
+    background: #fef7e0;
+    color: #f29900
+}
+
+.prefix.prefix--important::before {
+    content: "\f06a"
+}
+
+.prefix.prefix--rejected {
+    background: #fce8e6;
+    color: #d93025
+}
+
+.prefix.prefix--rejected::before {
+    content: "\f00d"
+}
+
+.prefix.prefix--pending {
+    background: #fff4e5;
+    color: #e67e22
+}
+
+.prefix.prefix--pending::before {
+    content: "\f017"
+}
+
+.prefix.prefix--resolved {
+    background: #e0f2f1;
+    color: #00897b
+}
+
+.prefix.prefix--resolved::before {
+    content: "\f058"
+}
+
+.prefix.prefix--forwarded {
+    background: #f3e5f5;
+    color: #8e24aa
+}
+
+.prefix.prefix--forwarded::before {
+    content: "\f1d8"
+}
+
+.prefix.prefix--info {
+    background: #e1f5fe;
+    color: #0288d1
+}
+
+.prefix.prefix--info::before {
+    content: "\f05a"
+}
+
+.prefix:hover {
+    opacity: 0.85;
+    text-decoration: none
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.node.node--unread .node-icon i {
+    background: transparent !important;
+    transform: none !important
+}
+
+.node.node--unread .node-icon i::after {
+    display: none !important
+}
+
+.node.node--unread .node-icon {
+    position: relative
+}
+
+.node.node--unread .node-icon::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 14px;
+    height: 14px;
+    z-index: 10;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23e81c27" d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: bellRing 3s infinite ease-in-out;
+    transform-origin: top center
+}
+
+@keyframes bellRing {
+    0%,100% {
+        transform: rotate(0)
+    }
+
+    10%,20% {
+        transform: rotate(15deg)
+    }
+
+    15%,25% {
+        transform: rotate(-15deg)
+    }
+
+    30% {
+        transform: rotate(0)
+    }
+}
+
+.glass-toggle-btn {
+    position: fixed;
+    right: 15px;
+    top: 80%;
+    z-index: 999;
+    background: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 50% !important;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    opacity: 0.5;
+    transition: all .4s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05)
+}
+
+.glass-toggle-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background: rgba(0,0,0,0.1)
+}
+
+.glass-toggle-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: #333
+}
+
+.block-container,.p-navSticky,.p-header,.structItem,.p-footer,.button,.input {
+    transition: border-radius .6s cubic-bezier(.34, 1.56, .64, 1),background-color .5s ease,backdrop-filter .5s ease,box-shadow .5s ease !important
+}
+
+.glass-mode .block-container,.glass-mode .block-minorHeader,.glass-mode .block-header,.glass-mode .block-footer,.glass-mode .p-nav,.glass-mode .p-nav-inner,.glass-mode .p-sectionLinks,.glass-mode .p-header,.glass-mode .structItem,.glass-mode .button,.glass-mode .input,.glass-mode .overlay,.glass-mode .menu-content,.glass-mode .message-cell,.glass-mode .fr-wrapper {
+    border-radius: 18px !important
+}
+
+.glass-mode .block-container,.glass-mode .structItem {
+    overflow: hidden
+}
+
+.glass-mode .p-navSticky,.glass-mode .p-header,.glass-mode .block-container,.glass-mode .structItem,.glass-mode .p-footer {
+    background: rgba(255,255,255,0.5) !important;
+    border: 1px solid rgba(255,255,255,0.4) !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05) !important;
+    will-change: transform;
+    transform: translateZ(0)
+}
+
+@media (min-width: 990px) {
+    .glass-mode .p-navSticky,.glass-mode .p-header,.glass-mode .block-container,.glass-mode .structItem {
+        backdrop-filter:blur(15px);
+        -webkit-backdrop-filter: blur(15px)
+    }
+}
+
+.glass-mode .p-body-content .block-container {
+    background: rgba(255,255,255,0.6) !important
+}
+
+.glass-mode .structItem:hover {
+    background: rgba(0,0,0,0.02) !important
+}
+
+.glass-mode .avatar,.glass-mode .avatar img,.glass-mode .avatar-u {
+    border-radius: 50% !important
+}
+
+.glass-mode .glass-toggle-btn {
+    opacity: 0.8;
+    background: rgba(0,0,0,0.08)
+}
+
+
+// Цвет для ссылок 
+.message-body a {
+    color: #4883e2;
+}
+
+
+@svgPrefixBorderRadius: @xf-borderRadiusSmall; // Радиус префиксов
+@svgPrefixFontFamily: inherit;                 // Семейство шрифта префикса
+@svgPrefixColorGradient: rgba(0,0,0,.4);       // Цвет градиента прификса
+@svgPrefixTextShadow: rgba(0,0,0,.5);          // Цвет тени префикса
+
+.svgLabelPrefix(@prefix-name, @prefix-color, @prefix-icon: "none") {
+    .svgPrefix, .label.svgPrefix {
+        font-family: @svgPrefixFontFamily;
+        font-size: 70%;
+        font-weight: 500;
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+        text-transform: uppercase;
+        line-height: ((@xf-lineHeightDefault) * .9);
+        padding: .25em .5em;
+        border: none;
+        border-radius: @svgPrefixBorderRadius;
+        position: relative;
+        white-space: nowrap;
+        .fsp & {
+            margin-right: 5px;
+        }
+        .menuPrefix& {
+            display: inline-block;
+            font-size: 1.3em;
+            width: 100%;
+            padding: .333em;
+            a& {
+                text-decoration: none;
+            }
+        }
+        .p-title-value & {
+            .p-title & {
+                font-size: 70%;
+            }
+        }
+        &:before {
+            position: absolute;
+            top: .25em;
+            bottom: 0;
+            left: .333em;
+        }     
+        &.@{prefix-name} {
+            background: linear-gradient(135deg, @svgPrefixColorGradient 0%, @svgPrefixColorGradient 40%, transparent 40%, transparent 100%), @prefix-color;
+            color: rgb(250,250,250);
+            text-shadow: 1px 0 1px @svgPrefixTextShadow, 0 1px 1px @svgPrefixTextShadow, -1px 0 1px @svgPrefixTextShadow, 0 -1px 1px @svgPrefixTextShadow;
+            &when (iskeyword(@prefix-icon)) {
+                padding: .25em .5em .25em 1.75em;
+                &:before {
+                    .m-faBase();
+                    content: "\@{prefix-icon}";
+                }
+            }
+        }     
+    } 
+}
+.svgLabelPrefix(odobpon, rgb(4,255,0), f00c);
+.svgLabelPrefix(raspon, rgb(4,255,0), f00c);
+.svgLabelPrefix(rassmotpon, rgb(255,200,0), f251);
+.svgLabelPrefix(vajpon, rgb(198,40,40), f06a);
+.svgLabelPrefix(zakpon, rgb(198,40,40), f023);
+.svgLabelPrefix(otkazpon, rgb(198,40,40), f057);
+.svgLabelPrefix(otkpon, rgb(4,255,0), f3c1);
+.svgLabelPrefix(pravpon, rgb(198,40,40), f06a);
+.svgLabelPrefix(infopon, rgb(0,255,255), f129);
+
+
+////// Профиксы
+
+////// Информация
+.skyred { 
+    color: white;
+    background: linear-gradient(to right, #f24666, #f24666);
+    border-radius: 10px;
+    font-size: 90%;
+    padding: 0 8px;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.green { ////// Открыто
+    color: white;
+    background: linear-gradient(to right, #228b22, #008000);
+    border-radius: 10px;
+    font-size: 90%;
+    padding: 0 8px;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.red { /* Важно */
+    color: white;
+    background: linear-gradient(to right, #f00, #900);
+    border-radius: 10px;
+    font-size: 90%;
+    padding: 0 8px;
+    line-height: normal;
+    font-weight: 600;
+}
+
+////// Ораньжевый цвет На расмотрении
+.orange { 
+    color: white;
+    background: linear-gradient(to right, #ffa500, #ff8c00);
+    border-radius: 10px;
+    font-size: 90%;
+    padding: 0 8px;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.p-footer-social {
+    display: none !important;
+}
